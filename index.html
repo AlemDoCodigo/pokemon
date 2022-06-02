@@ -1,13 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <!-- metas -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Bootstrap demo</title>
+    
+    <!-- links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
+    <!-- botão de menu -->
+
+    <!-- fim botão menu -->
     <div class="container">
+      <!--
+        O bootstrap, tem por padrão um sistema de grid que prioriza o menor valor de tela para o maior.
+        Quando for criar uma row e uma div com colunas, utilize o col-{1 a 12}, col-sm-{1 a 12}, col-md-{1 a 12}, col-lg-{1 a 12}, col-xl-{1 a 12}.
+        Saiba mais sobre grid em: https://getbootstrap.com/docs/5.2/layout/grid/#content
+        
+      -->
       <div class="col-xl-10 mt-2 offset-xl-1">
         <div class="card">
           <div class="card-body">
@@ -15,6 +28,10 @@
             <hr>
             <div class="row">
               <div class="col-md-3">
+                <!-- botão do menu -->
+                
+                <!-- fim botão menu -->
+                <!-- Menu -->
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item d-flex justify-content-between">
                     <ion-icon name="flash-outline"></ion-icon> 
@@ -42,10 +59,16 @@
                     <span class="badge bg-primary rounded-pill">sweet</span>
                   </li>
                 </ul>
+                <!-- fim menu -->
               </div>
+
+              <!-- coluna do meio -->
               <div class="col-md-6">
+                <!-- pokemon -->
                 <img src="img/p1.png" class="img-fluid">
               </div>
+              <!-- fim da coluna -->
+
             </div>
           </div> 
         </div>
@@ -67,12 +90,10 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <!-- scripts aqui -->
     <script type="text/javascript">
-      function timeModal(){
-        document.
-      }
-      //timeModal();
-      setInterval(timeModal, 5000);
+      
+
     </script>
   </body>
 </html>
